@@ -68,7 +68,7 @@
 			// closest() 方法获得匹配选择器的第一个祖先元素，从当前元素开始沿 DOM 树向上。
 			$this.closest('li').addClass('active');
 
-			$('.fh5co-tab-content.active').addClass('animated bounceInDown');
+			$('.fh5co-tab-content.active').addClass('animated fadeOutDown');
 
 			setTimeout(function(){
 				$('.fh5co-tab-content.active').removeClass('active animated fadeOutDown fadeInUp');
